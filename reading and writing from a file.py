@@ -1,13 +1,13 @@
 fileName = "Tresure.csv"
-WRITE = "w"
-APPEND = "a"
-READWRITE ="w+"
-MyFile = open(fileName,"w+")
-MyFile.write("FEYI,21\n")
-MyFile.write("TUMILARA,30\n")
-MyFile.write("Taiwo")
-MyFile.close()
-print("file written succesfully")
+# WRITE = "w"
+# APPEND = "a"
+# READWRITE ="w+"
+# MyFile = open(fileName,"w+")
+# MyFile.write("FEYI,21\n")
+# MyFile.write("TUMILARA,30\n")
+# MyFile.write("Taiwo")
+# MyFile.close()
+# print("file written succesfully")
 # r = read a file
 # w = write to the file
 # a = append to the existing file content
@@ -31,7 +31,7 @@ MyFile.close()
 MyFile = open(fileName,mode = READWRITE)
 MyFile.write("susan,39\n")
 MyFile.write("chris,50")
-# MyFile.close()
+MyFile.close()
 print("file written succesfully")
 
 #HOW TO READ A FILE WITH CODE

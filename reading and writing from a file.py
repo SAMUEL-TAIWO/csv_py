@@ -82,7 +82,7 @@ with open(filename, mode=READ) as MyCsvFile:
     for currentread in readfromfile:
         print(":".join(currentread))
 
-# THE CHALLENGE CAN ALSO BE CODED AS
+#THE CHALLENGE CAN ALSO BE CODED AS
 import csv
 
 with open("wode.txt", "r") as MyCsvFile:
